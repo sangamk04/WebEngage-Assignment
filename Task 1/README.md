@@ -1,19 +1,11 @@
-Task 2: Timeline Extension
+Task 1: Onsite Survey
+Link:- https://preeminent-jelly-205fe1.netlify.app/
 
-Subject: Request for Extension on Task Due Date
 
-Dear Internal Success Team,
+Desktop view:-
 
-I hope this email finds you well. I am writing to inform you that I will not be able to meet the original due date for the task, which was due tomorrow.
+![desktop view](https://user-images.githubusercontent.com/99814514/216809841-b9f696e3-a500-4470-b800-39c2b50d47c3.png)
 
-Unfortunately, I have a family emergency that requires my immediate attention and I won't be able to complete the task as planned. I understand that this may cause inconvenience and I deeply apologize for the situation.
+phone view:- 
 
-I would like to request an extension of three days from the original due date. I am confident that I will be able to complete the task within this timeframe and I will do my best to make up for the delay.
-
-Please let me know if this extension is possible, and if there is any additional information or support I can provide.
-
-Thank you for your understanding and I look forward to your prompt response.
-
-Best regards,
-
-[Sangam Kumar Singh]
+![phone view](https://user-images.githubusercontent.com/99814514/216809865-b815b338-1c28-49d0-b12e-dc55936b7a71.png)
