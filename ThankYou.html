@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        #box {
+            text-align: center;
+        }
+
+        #message {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #email {
+            font-size: 25px;
+        }
+
+        #mobile {
+            font-size: 25px;
+        }
+
+        #img {
+            margin-top: 2rem;
+            width: 400px;
+        }
+
+        @media only screen and (max-width:425px) {
+
+            #message {
+                font-size: 20px;
+            }
+
+            #email {
+                font-size: 20px;
+
+            }
+
+            #mobile {
+                font-size: 20px;
+
+            }
+
+            #img {
+                margin-top: 20px;
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div><img id="img" src="./thanku.gif"></div>
+        <p id="message">Thanks a ton for taking out your precious time and for completing the survey!</p>
+        <p id="email"></p>
+        <p id="mobile"></p>
+    </div>
+</body>
+
+</html>
+
+<script>
+    let user = JSON.parse(localStorage.getItem('myData'))
+    user.map((el) => {
+        let email = document.getElementById('email')
+        email.innerText = '📧 :- ' + el.email
+        let mobile = document.getElementById('mobile')
+        mobile.innerText =
+            '📱 :- ' + '  ' + '+' + el.Dialcode.s.dialCode + ' ' + el.mobile
+    })
+
+</script>

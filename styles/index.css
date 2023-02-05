@@ -1,0 +1,298 @@
+.Container {
+    display: flex;
+    width: 100%;
+}
+
+.firstBox>img {
+    width: 600px;
+    margin-top: 1rem;
+}
+
+.secondBox {
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.secondBox>img {
+    margin-top: 6.5%;
+}
+
+#head1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+#para1 {
+    font-size: 40px;
+    margin-top: -100px;
+}
+
+input {
+    margin-top: 11px;
+    padding: 15px;
+    width: 500px;
+    color: black;
+}
+
+#phone {
+    width: 530px;
+}
+form {
+    margin-top: -50px;
+}
+
+button {
+    margin-top: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#Emailinp {
+    position: relative;
+}
+
+#phoneinp {
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    z-index: 1;
+    color: red;
+    top: 1px;
+    left: 80%;
+}
+
+#mErr {
+    margin-top: 10px;
+}
+
+#numberLength {
+    color: red;
+}
+
+@media only screen and (max-width:425px) {
+    .Container {
+        display: block;
+        width: 100%;
+    }
+
+    .firstBox>img {
+        width: 83%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .secondBox {
+        width: 100%;
+        place-items: center;
+    }
+
+    .secondBox>img {
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    #head1 {
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    #para1 {
+        font-size: 24px;
+        margin-top: -25px;
+    }
+
+    form {
+        display: grid;
+        place-items: center;
+    }
+
+    input {
+        padding: 13px;
+        width: 302px;
+        border: 1px solid black;
+        color: black;
+        margin-top: 60px;
+    }
+
+    button {
+        width: 330px;
+        border-radius: 3px;
+    }
+
+    #phone {
+        width: 330px;
+    }
+
+    h5 {
+        position: absolute;
+        z-index: 1;
+        color: red;
+        top: 50px;
+        left: 70%;
+    }
+
+    #mErr {
+        margin-top: -38px;
+    }
+
+    #phoneLength {
+        color: red;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .Container {
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .firstBox>img {
+        width: 225px;
+        margin-top: 30px;
+        margin-left: 9%;
+    }
+
+    .secondBox {
+        width: 100%;
+        place-items: center;
+    }
+
+    .secondBox>img {
+        width: 190px;
+        margin-top: 20px;
+    }
+
+    #head1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    #para1 {
+        font-size: 18px;
+        margin-top: -25px;
+    }
+
+    form {
+        display: grid;
+        place-items: center;
+    }
+
+    input {
+        padding: 10px;
+        width: 279px;
+        border: 1px solid black;
+        color: black;
+        margin-top: 60px;
+
+    }
+
+    button {
+        width: 302px;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #phone {
+        width: 300px;
+    }
+
+    h5 {
+        position: absolute;
+        z-index: 1;
+        color: red;
+        left: 70%;
+        top: 50px;
+        font-size: 12px;
+    }
+
+    #mErr {
+        margin-top: -35px;
+    }
+
+    #phoneLength {
+        color: red;
+        font-size: 14.3px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+    .Container {
+        display: flex;
+        width: 100%;
+    }
+
+    .firstBox>img {
+        width: 275px;
+        margin-top: 30px;
+        margin-left: 8.8%;
+    }
+
+    .secondBox {
+        width: 100%;
+        place-items: center;
+    }
+
+    .secondBox>img {
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    #head1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    #para1 {
+        font-size: 24px;
+        margin-top: -25px;
+    }
+
+    form {
+        display: grid;
+        place-items: center;
+    }
+
+    input {
+        padding: 10px;
+        width: 289px;
+        color: black;
+        margin-top: 60px;
+
+    }
+
+    button {
+        margin-bottom: 2rem;
+        width: 310px;
+        border-radius: 2px;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #phone {
+        width: 310px;
+    }
+
+}
