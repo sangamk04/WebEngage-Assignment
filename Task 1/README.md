@@ -1,4 +1,5 @@
 Task 1: Onsite Survey
+
 Link:- https://preeminent-jelly-205fe1.netlify.app/
 
 
@@ -9,3 +10,8 @@ Desktop view:-
 phone view:- 
 
 ![phone view](https://user-images.githubusercontent.com/99814514/216809865-b815b338-1c28-49d0-b12e-dc55936b7a71.png)
+
+
+Thank You Page:-
+
+![phone view](https://user-images.githubusercontent.com/99814514/216810206-27b7c385-b84b-44a5-9cf4-1d6c6e843a70.png)
